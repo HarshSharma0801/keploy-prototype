@@ -1,0 +1,10 @@
+paths:
+    /api/products:
+        operations:
+            get:
+                responses:
+                    "200":
+                        description: Auto-generated response
+                        headers:
+                            Content-Type: application/json
+                        body: '{"products": [{"id": 1, "name": "Laptop", "price": 999.99}]}'

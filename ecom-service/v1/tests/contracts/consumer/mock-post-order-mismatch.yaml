@@ -1,0 +1,10 @@
+paths:
+    /api/orders:
+        operations:
+            post:
+                responses:
+                    "200":
+                        description: Auto-generated response
+                        headers:
+                            Content-Type: application/json
+                        body: '{"order_id": 100, "total": 1999.98}'

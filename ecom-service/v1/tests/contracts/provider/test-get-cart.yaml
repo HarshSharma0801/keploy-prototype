@@ -1,0 +1,10 @@
+paths:
+    /api/cart:
+        operations:
+            get:
+                responses:
+                    "200":
+                        description: Auto-generated response
+                        headers:
+                            Content-Type: application/json
+                        body: '{"cart": [{"product_id": 1, "quantity": 1}]}'
