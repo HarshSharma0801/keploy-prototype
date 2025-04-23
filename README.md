@@ -1,7 +1,7 @@
-# Keploy Contract Testing Prototype (GSOC’25 Enhancement Simulation)
+# Keploy Contract Testing Prototype 
 
 ## Overview
-Keploy is a contract testing tool designed to streamline API contract validation for microservices. This enhanced prototype demonstrates advanced features as proposed for GSOC’25, including schema versioning, unified schema management, advanced validation, and provider-driven contract testing.
+Keploy is a contract testing tool designed to streamline API contract validation for microservices. This enhanced prototype demonstrates advanced features as proposed for including schema versioning, unified schema management, advanced validation, and provider-driven contract testing.
 
 ---
 
