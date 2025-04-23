@@ -1,0 +1,28 @@
+# Inventory Service - Provider Test Schema
+openapi: 3.0.0
+info:
+  title: Inventory API
+  version: v1.0
+paths:
+  /inventory:
+    get:
+      summary: Get inventory
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        product_id:
+                          type: string
+                        quantity:
+                          type: integer
+                        availability:
+                          type: boolean

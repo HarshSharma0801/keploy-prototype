@@ -1,3 +1,10 @@
+// --- Enhancement Stubs (GSOC’25) ---
+// TODO: Add dependency graph for advanced schema comparison
+// TODO: Add watchSchemas for real-time validation (stub)
+// TODO: Enhance compareBodies for partial/deep matching
+// TODO: Add contract history tracking for rollback
+// --- End Enhancement Stubs ---
+
 package main
 
 import (

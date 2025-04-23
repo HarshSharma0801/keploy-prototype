@@ -1,5 +1,17 @@
 package main
 
+// --- Enhancement Stubs (GSOC’25) ---
+// TODO: saveSchemaWithMeta: Save schema with version, timestamp, author
+// TODO: add support for --format flag (YAML/JSON)
+// TODO: StorageConfig for mock S3/local abstraction
+// TODO: mergeSchemas: Merge multiple schemas, resolve conflicts
+// TODO: diffSchemas: Show differences between schema versions
+// TODO: watchSchemas: Real-time validation loop
+// TODO: publishContract: Simulate contract publishing
+// TODO: rollbackContract: Simulate rollback
+// See README.md for more details
+// --- End Enhancement Stubs ---
+
 import (
 	"fmt"
 	"os"

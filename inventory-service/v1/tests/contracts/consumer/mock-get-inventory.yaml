@@ -1,0 +1,26 @@
+# Inventory Service - Consumer Mock Schema
+openapi: 3.0.0
+info:
+  title: Inventory API (Consumer Mock)
+  version: v1.0
+paths:
+  /inventory:
+    get:
+      summary: Get inventory (consumer expectation)
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        product_id:
+                          type: string
+                        quantity:
+                          type: integer

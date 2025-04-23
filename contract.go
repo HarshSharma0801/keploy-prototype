@@ -1,3 +1,10 @@
+// --- Enhancement Stubs (GSOC’25) ---
+// TODO: Add SchemaMeta struct (version, timestamp, author)
+// TODO: Support saving/loading schemas in JSON as well as YAML
+// TODO: Implement mergeSchemas for unified contract
+// TODO: Implement diffSchemas for schema change tracking
+// --- End Enhancement Stubs ---
+
 package main
 
 import (
